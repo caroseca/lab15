@@ -70,3 +70,7 @@ label {
 	font-size: 30px;
 	display: block;
 }
+
+ul {
+	text-align: left;
+}
