@@ -11,7 +11,7 @@
 			<!-- event.actor and event.repo are returned by the github API. To view the raw API, uncomment the next line: -->
 
 			<!-- {{event | json }} -->
-			{{event.actor.login}} {{event.repo.name}} Commit Message: {{event.payload.commits[0].message}}
+			<span>Username:</span> {{event.actor.login}} <span>Repo Name:</span> {{event.repo.name}} <span>Commit Message:</span> {{event.payload.commits[0].message}}
 		</li>
 	</ul>
 </div>
